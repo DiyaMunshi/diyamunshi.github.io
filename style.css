@@ -261,3 +261,18 @@ a:hover {
 .section a {
   font-weight: 500;
 }
+
+.social-link {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 6px 14px;
+  background: #eef2f7;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  background: #dbe7f5;
+}
