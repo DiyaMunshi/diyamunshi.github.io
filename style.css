@@ -257,3 +257,7 @@ a:hover {
   font-size: 0.9rem;
   color: #777;
 }
+
+.section a {
+  font-weight: 500;
+}
