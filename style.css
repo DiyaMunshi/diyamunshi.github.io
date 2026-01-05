@@ -327,3 +327,40 @@ a:hover {
 .dark .project-card a:hover {
   text-decoration: underline;
 }
+
+/* ===== Force Dark Mode Text Fixes ===== */
+
+/* Project titles */
+.dark .project-card h3 {
+  color: #ffffff !important;
+}
+
+/* Project description */
+.dark .project-card p {
+  color: #d1d5db !important;
+}
+
+/* Tech stack text */
+.dark .project-card span {
+  color: #9bbcff !important;
+}
+
+/* Education section */
+.dark .education h3 {
+  color: #ffffff !important;
+}
+
+.dark .education p,
+.dark .education span {
+  color: #cfcfcf !important;
+}
+
+/* Section headings */
+.dark .section h2 {
+  color: #ffffff !important;
+}
+
+/* Contact links */
+.dark .section a {
+  color: #90b4ff !important;
+}
