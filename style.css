@@ -276,3 +276,7 @@ a:hover {
 .social-link:hover {
   background: #dbe7f5;
 }
+
+.dark .project-card h3 {
+  color: #ffffff;
+}
