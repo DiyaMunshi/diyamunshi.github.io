@@ -292,3 +292,38 @@ a:hover {
 .dark .education span {
   color: #cfcfcf;
 }
+
+/* Stronger contrast for Education section in dark mode */
+.dark .education h3 {
+  color: #ffffff;
+}
+
+.dark .education p {
+  color: #e0e0e0;
+}
+
+.dark .education span {
+  color: #bdbdbd;
+}
+
+/* Improve link visibility in dark mode */
+.dark a {
+  color: #9bbcff;
+}
+
+.dark a:hover {
+  color: #c7d6ff;
+}
+
+/* Extra emphasis for links inside Education & Contact */
+.dark .education a,
+.dark .section a {
+  color: #a9c2ff;
+}
+.dark .project-card a {
+  color: #9bbcff;
+}
+
+.dark .project-card a:hover {
+  text-decoration: underline;
+}
