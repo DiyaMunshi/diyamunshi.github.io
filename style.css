@@ -368,3 +368,16 @@ a:hover {
 .project-card a {
   font-weight: 500;
 }
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-link:focus {
+  outline: none;
+}
+
+.project-link .project-card {
+  cursor: pointer;
+}
