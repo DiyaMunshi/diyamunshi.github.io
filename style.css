@@ -364,3 +364,7 @@ a:hover {
 .dark .section a {
   color: #90b4ff !important;
 }
+
+.project-card a {
+  font-weight: 500;
+}
