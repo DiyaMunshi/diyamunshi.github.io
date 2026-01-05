@@ -280,3 +280,15 @@ a:hover {
 .dark .project-card h3 {
   color: #ffffff;
 }
+.dark .project-card span {
+  color: #9bbcff;
+}
+
+.dark .education h3 {
+  color: #ffffff;
+}
+
+.dark .education p,
+.dark .education span {
+  color: #cfcfcf;
+}
