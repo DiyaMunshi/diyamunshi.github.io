@@ -4,73 +4,225 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AgroSense – Smart Agriculture System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-  <!-- Main portfolio styles -->
-  <link rel="stylesheet" href="../style.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: #f9fafb;
+      color: #222;
+      line-height: 1.8;
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 2.3rem;
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin: 40px 0 15px;
+    }
+
+    p {
+      color: #555;
+      margin-bottom: 14px;
+    }
+
+    ul {
+      margin-left: 18px;
+      color: #555;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .hero {
+      margin-bottom: 50px;
+    }
+
+    .hero p {
+      max-width: 750px;
+      font-size: 1.05rem;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 28px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      margin-bottom: 30px;
+    }
+
+    .tech-stack span {
+      display: inline-block;
+      margin: 6px 8px 0 0;
+      padding: 6px 14px;
+      background: #eef2f7;
+      border-radius: 20px;
+      font-size: 0.85rem;
+    }
+
+    .demo-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 18px;
+      background: #4a6cf7;
+      color: #fff;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: background 0.3s ease;
+    }
+
+    .demo-btn:hover {
+      background: #3956d8;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 30px;
+      color: #4a6cf7;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    /* Dark Mode */
+    .dark {
+      background: #121212;
+      color: #eaeaea;
+    }
+
+    .dark p,
+    .dark li {
+      color: #cfcfcf;
+    }
+
+    .dark .card {
+      background: #1e1e1e;
+      box-shadow: none;
+    }
+
+    .dark .tech-stack span {
+      background: #2a2a2a;
+      color: #eaeaea;
+    }
+
+    .dark .demo-btn {
+      background: #90b4ff;
+      color: #000;
+    }
+
+    .dark .demo-btn:hover {
+      background: #7aa3ff;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      body {
+        padding: 30px 16px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<section class="section">
+  <!-- Hero -->
+  <section class="hero">
+    <h1>AgroSense – Smart Agriculture System</h1>
+    <p>
+      An AI-powered agriculture assistant designed to support better crop management
+      through plant disease detection and intelligent irrigation recommendations.
+    </p>
+  </section>
 
-  <h1>AgroSense – Smart Agriculture System</h1>
+  <!-- Overview -->
+  <div class="card">
+    <h2>Project Overview</h2>
+    <p>
+      AgroSense combines machine learning and web technologies to provide
+      data-driven insights that help improve agricultural productivity and
+      sustainability.
+    </p>
+    <p>
+      The system focuses on early disease identification and optimized water usage,
+      enabling informed decision-making for crop health management.
+    </p>
+  </div>
 
-  <p>
-    <strong>AgroSense</strong> is an AI-powered smart agriculture system
-    designed to assist farmers and agricultural practitioners by
-    providing data-driven insights for better crop management and
-    decision-making.
-  </p>
+  <!-- Key Modules -->
+  <div class="card">
+    <h2>Core Modules</h2>
+    <ul>
+      <li><strong>Plant Disease Detection:</strong> Image-based disease classification using deep learning and transfer learning.</li>
+      <li><strong>Smart Irrigation Support:</strong> Predictive analysis to assist optimal watering decisions.</li>
+      <li><strong>Web Application Interface:</strong> Simple, accessible UI for interacting with the system.</li>
+    </ul>
+  </div>
 
-  <p>
-    The system integrates <strong>machine learning models</strong> with
-    a web-based interface to analyze agricultural inputs such as plant
-    images and environmental data. Based on the analysis, AgroSense
-    helps identify potential plant diseases and supports informed
-    irrigation planning.
-  </p>
+  <!-- How it Works -->
+  <div class="card">
+    <h2>How the System Works</h2>
+    <ul>
+      <li>User uploads a plant leaf image through the web interface</li>
+      <li>Deep learning model analyzes the image for disease detection</li>
+      <li>System displays disease status along with causes and treatment suggestions</li>
+      <li>Irrigation module provides water-related recommendations</li>
+    </ul>
+  </div>
 
-  <p>
-    The goal of this project is to demonstrate how <strong>AI and web
-    technologies</strong> can be combined to solve real-world problems
-    in agriculture in a simple, accessible, and user-friendly manner.
-  </p>
+  <!-- Tech Stack -->
+  <div class="card">
+    <h2>Technology Stack</h2>
+    <div class="tech-stack">
+      <span>Python</span>
+      <span>Flask</span>
+      <span>TensorFlow</span>
+      <span>Keras</span>
+      <span>MobileNetV2</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+  </div>
 
-  <h2 style="margin-top: 30px;">Key Features</h2>
+  <!-- Use Cases -->
+  <div class="card">
+    <h2>Use Cases</h2>
+    <ul>
+      <li>Farmers monitoring crop health and diseases</li>
+      <li>Students learning applied machine learning in agriculture</li>
+      <li>Academic demonstrations of AI-driven farming solutions</li>
+    </ul>
+  </div>
 
-  <ul style="margin-left: 20px; color: inherit;">
-    <li>Plant disease detection using image-based machine learning</li>
-    <li>Integration of deep learning models for image recognition</li>
-    <li>Irrigation-related recommendations based on input parameters</li>
-    <li>User-friendly web interface for easy interaction</li>
-    <li>End-to-end ML workflow from input to prediction</li>
-  </ul>
-
-  <h2 style="margin-top: 30px;">Tech Stack</h2>
-
-  <p>
-    Python · Flask · TensorFlow · MobileNet · Machine Learning ·
-    HTML · CSS · JavaScript
-  </p>
-
-  <h2 style="margin-top: 30px;">Live Demo</h2>
-
-  <p>
-    You can explore the deployed version of AgroSense using the link below:
-  </p>
-
-  <p style="margin-top: 10px;">
-    <a href="https://agrosense-a-smart-agriculture-system.onrender.com"
-       target="_blank">
+  <!-- Demo -->
+  <div class="card">
+    <h2>Live Demo</h2>
+    <p>
+      Explore the working AgroSense system and experience AI-powered plant disease
+      detection and irrigation assistance.
+    </p>
+    <a class="demo-btn" href="https://agrosense-a-smart-agriculture-system.onrender.com" target="_blank">
       🌱 View Live Demo
     </a>
-  </p>
+  </div>
 
-  <p style="margin-top: 40px;">
-    <a href="../index.html">← Back to Portfolio</a>
-  </p>
-
-</section>
+  <a href="../index.html" class="back-link">← Back to Portfolio</a>
 
 </body>
 </html>
